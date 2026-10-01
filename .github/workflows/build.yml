@@ -22,6 +22,8 @@ jobs:
       - name: Maven Clean Package
         run: mvn clean package    
 
+        
+
       - name: Docker Login
         uses: docker/login-action@v3
         with:
