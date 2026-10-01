@@ -48,7 +48,7 @@ jobs:
               docker rm backend-collection || true
               docker run -d \
               --name backend-collection \
-              -p 8080:8080 \
+              -p 8081:8080 \
               ${{ secrets.DOCKER_USERNAME }}/backend-collection:v1
               
 
